@@ -1,9 +1,9 @@
 body {
-    font-family: "ubuntu", sans-serif;
+    font-family: 'Source Sans Pro',"ubuntu", sans-serif;
     font-weight: 400;
     color: #373a3c;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #ffffff;
 }
 
@@ -81,7 +81,7 @@ blockquote em {
 }
 
 a,a:hover {
-    color: #1a74be;
+    color: #e05a39;
     text-decoration: none
 }
 
@@ -90,7 +90,7 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: raleway,sans-serif;
+    font-family: 'Source Sans Pro', raleway,sans-serif;
     line-height: 1.2;
     color: #333;
     font-weight: 200;
@@ -169,7 +169,7 @@ ul {
 
 .site-title a {
 	/* color: #333; */
-    color: #1a74be;
+    color: #e05a39;
 	text-decoration: none !important;
 }
 
@@ -195,6 +195,7 @@ ul {
 
 pre code {
   display: inline-block;
+  font-size: 16px;
 }
   
 
@@ -227,6 +228,7 @@ pre code {
 .header nav {
     margin-top: 20px;
     border-top: 1px solid #f4f4f4;
+   
 }
 
 .header nav ul,
@@ -245,6 +247,7 @@ pre code {
     margin-right: 10px;
     margin-top: 10px;
     text-transform: capitalize;
+    
 }
 
 .header .site-description {
@@ -258,6 +261,7 @@ pre code {
     border: none;
     min-width: 50px;
     margin-left: 15px;
+    
 }
 
 .header .site-description nav ul svg {
@@ -302,6 +306,10 @@ pre code {
     margin-top: 10px;
 }
 
+.post .title {
+    font-size: 24px;
+}
+
 .post .draft-label {
     color: #a00;
     text-decoration: none;
@@ -344,6 +352,7 @@ pre code {
 
 .page-title {
     margin-bottom: 0;
+    font-size: 24px;
 }
 
 .tag-cloud {
@@ -416,3 +425,6 @@ table th, table td {
         margin-top: 10px;
     }
 }
+
+
+

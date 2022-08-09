@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rlang on Terminal</title><link>https://mlblogg.com/tags/rlang/</link><description>Recent content in rlang on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Aug 2022 12:13:38 +0530</lastBuildDate><atom:link href="https://mlblogg.com/tags/rlang/index.xml" rel="self" type="application/rss+xml"/><item><title>The 'circular random walk' puzzle: tidy simulation of stochastic processes in R</title><link>https://mlblogg.com/posts/post-8/</link><pubDate>Sun, 07 Aug 2022 12:13:38 +0530</pubDate><guid>https://mlblogg.com/posts/post-8/</guid><description>I love 538’s Riddler column, and I’ve enjoyed solving the November 20th puzzle. I’ll quote:
+To celebrate Thanksgiving, you and 19 of your family members are seated at a circular table (socially distanced, of course). Everyone at the table would like a helping of cranberry sauce, which happens to be in front of you at the moment.
+Instead of passing the sauce around in a circle, you pass it randomly to the person seated directly to your left or to your right.</description><content>&lt;p>I love 538’s Riddler column, and I’ve enjoyed solving the November 20th puzzle. I’ll quote:&lt;/p>
+&lt;blockquote>
+&lt;p>To celebrate Thanksgiving, you and 19 of your family members are seated at a circular table (socially distanced, of course). Everyone at the table would like a helping of cranberry sauce, which happens to be in front of you at the moment.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Instead of passing the sauce around in a circle, you pass it randomly to the person seated directly to your left or to your right. They then do the same, passing it randomly either to the person to their left or right. This continues until everyone has, at some point, received the cranberry sauce.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Of the 20 people in the circle, who has the greatest chance of being the last to receive the cranberry sauce?&lt;/p>
+&lt;/blockquote>
+&lt;p>I’ll solve this with tidy simulation in R, as usual using one of my favorite functions, tidyr’s crossing(), and getting another chance to explore a variation of a “random walk”.&lt;/p>
+&lt;h2 id="simulating-a-table-of-20">Simulating a table of 20&lt;/h2>
+&lt;p>You can set dark mode as default by setting &lt;code>params.mode&lt;/code> to &lt;code>dark&lt;/code> in &lt;code>config.toml&lt;/code> or set it to &lt;code>auto&lt;/code> which will detect based on your OS and switch to dark mode. For more details &lt;a href="https://github.com/vividvilla/ezhil#configuration">refer documentation&lt;/a>&lt;/p>
+&lt;p>Here is how you can switch based on your OS&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.howtogeek.com/440078/how-to-enable-dark-mode-on-your-iphone-and-ipad/">iOS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://9to5google.com/2018/12/17/android-dark-mode-theme-pie/">Android&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://support.apple.com/en-in/HT208976">macOS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cnet.com/how-to/turn-on-the-dark-mode-in-windows-10/">Windows 10&lt;/a>&lt;/li>
+&lt;/ul></content></item></channel></rss>

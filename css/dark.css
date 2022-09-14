@@ -4,28 +4,34 @@ body {
 }
 
 ::-moz-selection {
-    background: #666;
-    text-shadow: none
+	background: #666;
+	text-shadow: none
 }
 
 ::selection {
-    background: #666;
-    text-shadow: none
+	background: #666;
+	text-shadow: none
 }
 
 hr {
-    border-color: #333;
+	border-color: #333;
 }
 
 blockquote {
 	border-color: #ddd;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	color: #ddd;
 }
 
-a,a:hover {
+a,
+a:hover {
 	color: #ff7979;
 	text-decoration: none;
 }
@@ -41,7 +47,7 @@ a:hover {
 }
 
 .post-tags .tags a {
-    border: 1px solid #ddd;
+	border: 1px solid #ddd;
 	color: #ddd;
 }
 
@@ -63,11 +69,12 @@ table th {
 	background-color: #333;
 }
 
-table th, table td {
-    padding: 10px 20px;
-    border: 1px solid #666;
+table th,
+table td {
+	padding: 10px 20px;
+	border: 1px solid #666;
 }
 
 pre code {
-  display: inline-block
+	display: inline-block
 }

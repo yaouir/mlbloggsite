@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+
+
+body {
+	background-color: #fff;
+	font-family: 'Source Sans Pro', "ubuntu", sans-serif;
+	font-size: 20px;
+	color: #404040;
+}
+
+.header .site-description nav ul svg {
+	max-height: 25px;
+	padding-left: 10px;
+
+}
+
+.wrapper {
+	max-width: 920px;
+}
+
+
+.highlight {
+	background-color: rgb(40, 44, 52);
+	border-radius: 5px;
+	font-family: Consolas, Menlo;
+	font-size: 16px;
+}
+
+.posts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.post {
+	flex-basis: 50%;
+}
+
+.pgn-btn {
+
+	margin: auto;
+
+}
+
+.post article {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+a {
+
+	color: #404040;
+	font-family: 'Source Sans Pro';
+	font-weight: bold;
+	font-size: 22px;
+}
+
+a:hover {
+	color: #a00;
+}
+
+
+.footer nav a {
+	font-size: 14px;
+}
+
+/* .nav .flat {
+	float: right;
+} */
+
+
+/* .post-header .title { */
+/* color: #404040; */
+/* font-family: 'Source Sans Pro'; */
+/* font-weight: bold; */
+/* font-size: 44px; */
+/* border-left: 10px solid #a00; */
+/* } */
+
+#heading-1,
+#heading-2,
+#heading-3,
+#heading-4 {
+	font-family: 'Source Sans Pro';
+	/* font-size: 38px; */
+	font-weight: bold;
+}
+
+
+
+/*
+*/
+
+
+/* box */
+
+.box {
+	padding: 10px;
+	/* border: 1px solid rgba(0, 0, 0, .2); */
+	border: 2px solid rgba(170, 0, 0, .8);
+	border-radius: 6px;
+	background-color: rgba(0, 0, 0, .1);
+	margin-bottom: 20px;
+	text-align: center;
+}

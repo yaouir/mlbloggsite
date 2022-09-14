@@ -1,0 +1,88 @@
+baseURL = "https://mlblogg.com"
+languageCode = "en-us"
+title = "mlblogg"
+theme = "ezhil"
+paginate = 6
+
+# copyright = "© Copyright notice"
+
+pygmentsstyle = "dracula"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+disqusShortname = "ezhil-demo"
+
+summaryLength = 20
+
+[params]
+	subtitle = "learning ML/ai and sharing about it"
+	# disableDisqusTypes = ["page"]
+	featherIconsCDN = true
+	mode = "light" # "dark", "auto", "light"
+	customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["https://code.jquery.com/jquery-3.4.1.js", "js/custom1.js"]  # Custom JS scripts.
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+# [[menu.main]]
+# name = "All posts"
+# url = "/posts"
+# weight = 2
+
+[[menu.main]]
+name = "Algebra"
+url = "/about"
+weight = 2
+
+
+[[menu.main]]
+name = "Statistics"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Algorithms"
+url = "/about"
+weight = 4
+
+[[menu.main]]
+name = "Python"
+url = "/about"
+weight = 5
+
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 6
+
+# [[menu.main]]
+# name = "Tags"
+# url = "/tags"
+# weight = 4
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/mlblogg"
+
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/vividvilla/ezhil"
+
+
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"

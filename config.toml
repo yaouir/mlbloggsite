@@ -16,7 +16,7 @@ disqusShortname = "ezhil-demo"
 summaryLength = 20
 
 [params]
-	subtitle = "learning ML/ai and sharing about it"
+	subtitle = "learning ML/AI and sharing about it"
 	# disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 	mode = "light" # "dark", "auto", "light"
@@ -34,26 +34,26 @@ weight = 1
 # url = "/posts"
 # weight = 2
 
-[[menu.main]]
-name = "Algebra"
-url = "/about"
-weight = 2
+# [[menu.main]]
+# name = "Algebra"
+# url = "/about"
+# weight = 2
 
 
-[[menu.main]]
-name = "Statistics"
-url = "/about"
-weight = 3
+# [[menu.main]]
+# name = "Statistics"
+# url = "/about"
+# weight = 3
 
-[[menu.main]]
-name = "Algorithms"
-url = "/about"
-weight = 4
+# [[menu.main]]
+# name = "Algorithms"
+# url = "/about"
+# weight = 4
 
-[[menu.main]]
-name = "Python"
-url = "/about"
-weight = 5
+# [[menu.main]]
+# name = "Python"
+# url = "/about"
+# weight = 5
 
 
 [[menu.main]]
@@ -75,7 +75,7 @@ url = "https://twitter.com/mlblogg"
 [[params.social]]
 name = "Github"
 icon = "github"
-url = "https://github.com/vividvilla/ezhil"
+url = "https://github.com/mlblogg"
 
 
 

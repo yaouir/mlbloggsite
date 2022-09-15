@@ -7,10 +7,12 @@
 		{{- end -}}
 		<nav class="nav social">
 			<ul class="flat">
-				{{- range $index, $key := .Site.Params.Social -}}
-				<a href="{{ $key.url }}" title="{{ $key.name }}" target="_blank"><i
-						data-feather="{{ $key.icon }}"></i></a>
-				{{- end -}}
+				<li>
+					{{- range $index, $key := .Site.Params.Social -}}
+					<a href="{{ $key.url }}" title="{{ $key.name }}" target="_blank"><i
+							data-feather="{{ $key.icon }}"></i></a>
+					{{- end -}}
+				</li>
 			</ul>
 		</nav>
 	</div>

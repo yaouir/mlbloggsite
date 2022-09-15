@@ -16,7 +16,7 @@ disqusShortname = "ezhil-demo"
 summaryLength = 20
 
 [params]
-	subtitle = "learning ML/AI and sharing about it"
+	subtitle = "I'm not sure what this blog is about but hopefully you will learn something useful today."
 	# disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 	mode = "light" # "dark", "auto", "light"

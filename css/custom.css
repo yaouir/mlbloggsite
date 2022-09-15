@@ -104,3 +104,34 @@ a:hover {
 	margin-bottom: 20px;
 	text-align: center;
 }
+
+@media (max-width:800px) {
+
+	.wrapper {
+		padding: 20px;
+	}
+
+	.header .site-description nav ul :nth-child(3) {
+		display: none;
+	}
+
+	.posts {
+		display: block;
+
+	}
+
+}
+
+
+
+@media (max-width:1000px) {
+
+	.wrapper {
+		padding: 20px;
+	}
+
+
+
+
+
+}

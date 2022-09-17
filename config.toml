@@ -11,7 +11,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 googleAnalytics = "UA-123-45"
-disqusShortname = "ezhil-demo"
+# disqusShortname = "ezhil-demo"
 
 summaryLength = 20
 
